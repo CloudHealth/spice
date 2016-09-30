@@ -20,7 +20,7 @@ module Spice
       
       def on_complete(env)
         if respond_to? :parse
-          env[:body] = parse(env[:body]) unless env[:request][:raw] or [204,304].index env[:status]
+          env[:body] = parse(env[:body]) unless [204,304].index env[:status]
         end
       end # def on_complete
       
