@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.rubyforge_project = "spice"
-  s.add_dependency "faraday", "~> 0.8.0"
+  s.add_dependency "faraday", ">= 0.8.0"
   s.add_dependency "mixlib-authentication", '~> 1.1.4'
   s.add_dependency "multi_json"
   
