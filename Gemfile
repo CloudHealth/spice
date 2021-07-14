@@ -12,7 +12,7 @@ group :doc do
 end
 
 group :local do
-  gem 'guard', '>= 1.0.1'
+  gem 'guard', '>= 1.0.2'
   gem 'guard-rspec', '>= 0.6.0'
   gem 'guard-spork', '>= 0.5.2'
   gem 'rb-fsevent', '>= 0.9.0'
